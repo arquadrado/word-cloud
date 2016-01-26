@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
     <title>Word Cloud Example</title>
 </head>
 
 <body>
-<div id="word-cloud"></div>
+<div class="word-cloud"></div>
 <form id="form">
 
 <div style="text-align: center">
   <div id="presets"></div>
   <div id="custom-area">
     <p><label for="text">Paste your text below!</label>
-    <p><textarea id="text">
-
-    </textarea>
-    <button type="button" onClick="test()">Go!</button>
+    <p><textarea id="text"></textarea>
+    <button type="button" onClick="createWordCloud()">Go!</button>
   </div>
 </div>
 
